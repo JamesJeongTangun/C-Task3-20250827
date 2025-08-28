@@ -1,5 +1,18 @@
 <plugins>
   <plugin id="com.github.continuedev.continueintellijextension"
           version="1.0.24"
-          url="https://github.com/JamesJeongTangun/C-Task3-20250827/releases/download/1.0.24/continue-intellij-extension-1.0.24.zip"/>
+          url="https://github.com/JamesJeongTangun/C-Task3-20250827/releases/download/1.0.24/continue-intellij-extension-1.0.24.zip">
+    <name>Windsurf for IntelliJ</name>
+    <description><![CDATA[
+      사내 배포용 Windsurf 플러그인(Continue 기반).<br/>
+      - 내부 프록시/모델 엔드포인트와 함께 사용<br/>
+      - 표준 IntelliJ 2022.3(223) 이상 호환
+    ]]></description>
+    <change-notes><![CDATA[
+      1.0.24
+      - 초기 배포
+    ]]></change-notes>
+    <vendor email="jetbrains@tangunsoft.com" url="https://www.tangunsoft.com">Tangunsoft</vendor>
+    <idea-version since-build="223.0" until-build="999.*"/>
+  </plugin>
 </plugins>
